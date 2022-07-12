@@ -18,7 +18,7 @@ root.render(
   <BrowserRouter>
       <Menu/>
       <Routes>
-        <Route path="home" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="users" element={<User />} />
         <Route path="authors" element={<Author />} />
         <Route path="publishers" element={<Publisher />} />

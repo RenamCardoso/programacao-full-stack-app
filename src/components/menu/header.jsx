@@ -7,7 +7,7 @@ function Menu() {
     return (
         <div>
             <ul className="header">
-                <Link to="/home"><img src={logo} className="logo" alt="logo"></img></Link>
+                <Link to="/"><img src={logo} className="logo" alt="logo"></img></Link>
                 <li><Link to="/books">Livros</Link></li>
                 <li><Link to="/authors">Autor</Link></li>
                 <li><Link to="/publishers">Publicadora</Link></li>   

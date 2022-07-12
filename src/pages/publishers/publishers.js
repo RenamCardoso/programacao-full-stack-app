@@ -7,7 +7,7 @@ function Publisher() {
   return (
     <div className="App-books">
       <div className="btn-book">
-        <button>Cadastrar Autor</button>
+        <button>Cadastrar Publicadora</button>
       </div>
       <div className="card-books">
         <table className="table">
