@@ -3,7 +3,6 @@ import './authors.css';
 
 
 function Author() {
-    
   return (
     <div className="App-books">
       <div className="btn-book">
