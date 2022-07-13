@@ -1,92 +1,27 @@
-.App-books {
+.App-publishers {
     background-color: #282c34;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1vmin);
     color: white;
-    min-height: 80vh;
-  }
-
-.btn-us {
-    display: inline-block;
-    padding: 0 10px;
+    flex-grow: 1;
+    flex-basis: auto;
 }
 
-.btn-book {
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    border-radius: 4px;
-    width: 200px;
-    font-weight: 600;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
+.App-publishers Button {
+    margin-top: 30px;
 }
 
-.btn-book button{
-    font-size: 18px;
-    color: #000000;
-    background-color: #fff;
-    border: 0;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 10px;
-  }
-
-.card-books {
-    display: flex;
-    text-align: center;
-    min-width: 1000px;
-    min-height: 500px;
-    margin: 0 auto;
-    max-width: 37.5em;
-    padding: 8px;
-    background: rgb(237, 237, 237);
-    border-radius: 8px;
-    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.11), 0 2px 0 4px 4px rgb(0, 0, 0, 0.11), 0 6px 8px rgb(0, 0, 0, 0.11);
+.App-publishers div {
+    min-width: 90%;
 }
 
-.book-title {
-    color: #fff;
-    font-size: 34px;
+.App-publishers div Table {
+    margin-top: 50px;
 }
 
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.thead {
-    position: sticky;
-    z-index: 100;
-}
-
-.trHead {
-    background: rgb(245, 245, 245);
-}
-
-.th {
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: capitalize;
-    color: rgb(33, 33, 33);
-    padding: 8px;
-}
-
-.trBody {
-    background: rgb(255, 255, 255);
-}
-
-.td {
-    padding: 8px;
-    border: 1px solid rgb(237, 237, 237);
-    font-size: 14px;
-    color: rgb(33, 33, 33);
+.App-publishers Table tbody tr td Button {
+    margin: 0;
+    margin-right: 10px
 }

@@ -1,52 +1,19 @@
-.card {
-    margin: 2px;
-    padding: 15px;
-    border: 2px solid #3498DB;
-    border-radius: 15px;
+.App-header.login {
+  color: black;
 }
 
-.fields {
+.App-header.login .card {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-label {
-  display: block;
-  margin-bottom: 7px;
-  font-size: 1.2rem;
-  color: #D2DAF5;
-  font-family: Poppins;
+.App-header.login .card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 80px;
 }
 
-input, textarea {
-  width: 100%;
-  border-radius: 10px;
-  border: 0;
-  outline: 0;
-  font-size: 1.2rem;
-  padding-left: 10px;
+.alert{
+  font-size: 16px;
 }
-
-input {
-  height: 45px;
-  width: 400px;
-}
-
-.btn-user{
-  margin-top: 30px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
-}
-
-.btn-user button{
-  font-weight: 600;
-  font-size: 24px;
-  padding: 12px 50px;
-  color: #000000;
-  background-color: #3498DB;
-  border: 0;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-

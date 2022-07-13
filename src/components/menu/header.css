@@ -2,40 +2,32 @@
 * {
     margin: 0;
     padding: 0;
-    /* Facilita a manipulação da largura e altura dos elementos */
     box-sizing: border-box;
 }
 
-html {
-    background-color: #000000; /* Define a cor do fundo */
-    color: #555;
-    font-family: 'Lato', 'Arial', sans-serif; /* A terceira opção é qualquer fonte daquela família, note que o nome da família não esta entre aspas. */
-    font-weight: 300; /* De acordo com a fonte que importamos */
-    font-size: 20px;
-    text-rendering: optimizeLegibility; /* Otimiza a renderização da fonte para leitura, tendo uma melhor qualidade */
+.header {
+  flex-grow: 0;
+  flex-basis: auto;
+  background-color: #000000;
 }
 
-/* ----------------------------------------------- */
-/* Cabeçalho */
-/* ----------------------------------------------- */
-/* Definições para a área do Menu */
-
-.header {
+.header ul {
+    margin: 0;
     text-align: center;
     list-style: none; /* Se livra dos bullets - bolinhas pretas - marcadores */
-    margin-top: 30px; /* Colocar um espaçamento acima da lista para baixar ela */
-    margin-bottom: 30px;
+    padding-top: 30px; /* Colocar um espaçamento acima da lista para baixar ela */
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header li {
+.header ul li {
     display: inline-block;
     margin-left: 40px;
 }
 
-.header li a {
+.header ul li a {
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
@@ -44,8 +36,8 @@ html {
     transition: border-bottom 0.2s;
 }
 
-.header li a:link,
-.header li a:visited {
+.header ul li a:link,
+.header ul li a:visited {
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
@@ -54,8 +46,8 @@ html {
     transition: border-bottom 0.2s;
 }
 
-.header li a:hover,
-.header li a:active {
+.header ul li a:hover,
+.header ul li a:active {
     border-bottom: 2px solid #6495ED;
 }
 

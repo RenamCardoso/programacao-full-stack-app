@@ -1,13 +1,30 @@
-.App-books {
+.App-authors {
     background-color: #282c34;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1vmin);
     color: white;
-    min-height: 80vh;
-  }
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.App-authors Button {
+    margin-top: 30px;
+}
+
+.App-authors div {
+    min-width: 90%;
+}
+
+.App-authors div Table {
+    margin-top: 50px;
+}
+
+.App-authors Table tbody tr td Button {
+    margin: 0;
+    margin-right: 10px
+}
 
 .btn-us {
     display: inline-block;
@@ -27,7 +44,7 @@
     text-transform: none;
 }
 
-.btn-book button{
+.btn-book button {
     font-size: 18px;
     color: #000000;
     background-color: #fff;
@@ -35,9 +52,9 @@
     border-radius: 10px;
     cursor: pointer;
     padding: 10px;
-  }
+}
 
-.card-books {
+.card-authors {
     display: flex;
     text-align: center;
     min-width: 1000px;
